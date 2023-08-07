@@ -1,27 +1,18 @@
-                /* Hamburger menu */
-const bars = document.getElementById("bars");
+/* Welcome text typewriter effect */
 
-bars.addEventListener("click", () => {
-    links = document.getElementById("links");
-    if (links.style.display === "flex") {
-        links.style.display = "none";
-    }
-    else {
-        links.style.display = "flex";
-    }
-});
+let i = 0;
+let welcomeTxt = "to the bat world"; /* The text */
 
-                /* Logo animation */
+let speed = 200; /* The speed/duration of the effect in milliseconds */
 
-const logo = document.getElementById("batLogo");
-logo.addEventListener("click", () => {
-    if (logo.className === "logo-img") {
-        logo.className = "logo-img animation";
-    }
-    else {
-        logo.className = "logo-img";
-        batSounds = document.getElementById("batSounds");
-        batSounds.play();
-    }
-    
-});
+function typeWriter() {
+  if (i < welcomeTxt.length) { 
+   const welcome =  document.getElementById("welcome")
+   welcome.innerHTML += welcomeTxt.charAt(i);
+    i++;
+  setTimeout(typeWriter, speed);
+
+}
+}
+
+
