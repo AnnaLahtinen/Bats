@@ -56,7 +56,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    border-bottom: 1px solid red;
 }
 
 .logo {
@@ -73,14 +72,16 @@ nav {
 }
 
 .links {
-    width: 40%;
-    height: 100%;
+    width: 100%;
+    height: auto;
     text-align: center;
     display: flex;
     flex-direction: column;
     position: absolute;
+    border: 1px solid var(--text-color);
     top: 4rem;
-    left: 30%;
+    left: 0;
+    display: none;
 }
 
 .link {
@@ -93,4 +94,12 @@ nav {
 .link:hover {
     background-color: var(--secondary-color);
     border: 1px solid var(--text-color);
+}
+
+.bars {
+    color: var(--text-color);
+    font-weight: 400;
+    margin-right: 1em;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
