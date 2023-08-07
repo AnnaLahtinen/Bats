@@ -23,7 +23,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--background-color);
+    background-color: rgb(53, 53, 53);
 }
 
 .main-bat-img {
