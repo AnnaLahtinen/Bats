@@ -31,7 +31,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(53, 53, 53);
+  background-image: url("images/bat-bg.jpg");
 }
 
 .main-bat-img {
@@ -63,6 +63,24 @@ main {
   content: "Welcome ";
 }
 
+.enter-btn button{
+  padding: 0.4rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  transition: all 0.4s;
+}
+
+.enter-btn button:hover {
+  box-shadow: 2px 2px 5px var(--background-color);
+  background-color: var(--text-color);
+  color: var(--secondary-color);
+}
 /* Landing.html style starts here */
 
 /* Navbar style */
@@ -136,6 +154,7 @@ nav {
   top: 4rem;
   left: 0;
   z-index: 3;
+  background: transparent;
   display: none;
 }
 
