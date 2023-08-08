@@ -183,14 +183,3 @@ nav {
 }
 
 /* About.html styling starts here */
-
-.about-main {
-  height: calc(100vh - 4rem);
-  background-image: url("images/about-bg.avif");
-  text-align: center;
-}
-
-.about-heading {
-  background: var(--blur);
-  backdrop-filter: blur(10px);
-}
