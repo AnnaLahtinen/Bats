@@ -63,7 +63,7 @@ main {
   content: "Welcome ";
 }
 
-.enter-btn button{
+.explore-btn button{
   padding: 0.4rem 1rem;
   font-size: 0.8rem;
   font-weight: 600;
@@ -76,7 +76,7 @@ main {
   transition: all 0.4s;
 }
 
-.enter-btn button:hover {
+.explore-btn button:hover {
   box-shadow: 2px 2px 5px var(--background-color);
   background-color: var(--text-color);
   color: var(--secondary-color);
