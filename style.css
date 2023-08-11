@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Roboto:wght@300;400&family=Tektur:wght@500&display=swap');
+
 :root {
   --primary-color: #ef2d58;
   --secondary-color: #171a21;
@@ -9,11 +11,6 @@
     rgba(255, 255, 255, 0)
   );
 }
-
-/*
-E4C3AD
- */
-
 * {
   margin: 0;
   padding: 0;
@@ -179,7 +176,9 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
 }
 .grid-child:hover {
   box-shadow: 3px 3px 5px black;
@@ -187,8 +186,27 @@ nav {
 
 .about-heading {
   padding: 1rem;
+  font-family: 'Tektur', cursive;
 }
 
 .about-para {
   padding:  0.8rem 0.8rem 0.8rem;
+}
+
+.about-btn{
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  padding: 7px 12px;
+  border-radius: 0.3rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.4s;
+  margin: 0.4rem;
+  font-family: 'Tektur', cursive;
+}
+
+.about-btn:hover {
+  background-color: #d33b7d;
+  font-family: 'Tektur', cursive;
 }
