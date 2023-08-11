@@ -5,8 +5,8 @@
   --text-color: #fffbff;
   --blur: linear-gradient(
     to right,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
   );
 }
 
@@ -156,3 +156,39 @@ nav {
 }
 
 /* About.html styling starts here */
+.about-main-grid {
+  height: auto;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+  justify-items: center;
+  background-image: url("images/about-bg.jpg");
+  background-size: cover;
+}
+
+.grid-child {
+  height: auto;
+  margin: 1rem 0;
+  background-color: #171A21;
+  width: 80vw;
+  border: 1px solid var(--text-color);
+  background: var(--blur);
+  backdrop-filter: blur(0.2rem);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--text-color);
+}
+.grid-child:hover {
+  box-shadow: 3px 3px 5px black;
+}
+
+.about-heading {
+  padding: 1rem;
+}
+
+.about-para {
+  padding:  0.8rem 0.8rem 0.8rem;
+}
