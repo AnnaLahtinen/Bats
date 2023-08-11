@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #EF2D58;
-  --secondary-color: #171A21;
-  --background-color: #FEC0CE;
+  --primary-color: #ef2d58;
+  --secondary-color: #171a21;
+  --background-color: #fec0ce;
   --text-color: #fffbff;
   --blur: linear-gradient(
     to right,
@@ -12,9 +12,6 @@
 
 /*
 E4C3AD
-
-
-
  */
 
 * {
@@ -57,8 +54,8 @@ main {
   transform: rotate(-15deg);
 }
 
-#welcome{
-  font-family: 'Creepster', cursive;
+#welcome {
+  font-family: "Creepster", cursive;
   line-height: 4rem;
   font-size: 1.5rem;
   color: var(--text-color);
@@ -70,7 +67,7 @@ main {
   content: "Welcome ";
 }
 
-.explore-btn button{
+.explore-btn button {
   padding: 0.4rem 1rem;
   font-size: 0.8rem;
   font-weight: 600;
@@ -79,7 +76,7 @@ main {
   border: none;
   border-radius: 0.3rem;
   cursor: pointer;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   transition: all 0.4s;
 }
 
@@ -95,7 +92,7 @@ nav {
   height: 4rem;
   width: 100vw;
   display: flex;
-  background-color: var(--background-color);
+  background-color: var(--secondary-color);
   justify-content: space-between;
   align-items: center;
   position: relative;
@@ -115,7 +112,7 @@ nav {
   width: 3rem;
   border-radius: 50%;
   cursor: pointer;
-  filter: drop-shadow(1px 1px 2px var(--primary-color));
+  filter: drop-shadow(1px 1px 2px var(--text-color));
   -webkit-filter: drop-shadow(1px 1px 2px var(--primary-color));
 }
 
@@ -151,7 +148,7 @@ nav {
 }
 
 .bars {
-  color: var(--secondary-color);
+  color: var(--text-color);
   font-weight: 400;
   margin-right: 1em;
   font-size: 1.5rem;
@@ -159,4 +156,3 @@ nav {
 }
 
 /* About.html styling starts here */
-
