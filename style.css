@@ -209,3 +209,15 @@ nav {
   background-color: #d33b7d;
   font-family: 'Tektur', cursive;
 }
+
+/* species.html style starts here */
+
+.species-main {
+  height: auto;
+  width: 100vw;
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  gap: 1rem;
+}
