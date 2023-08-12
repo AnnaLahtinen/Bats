@@ -221,3 +221,13 @@ nav {
   justify-items: center;
   gap: 1rem;
 }
+
+.species-card {
+  height: 15rem;
+  width: 60%;
+  border: 1px solid moccasin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
