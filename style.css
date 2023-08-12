@@ -254,7 +254,7 @@ nav {
 }
 
 .species-card-front img {
-  height: 11rem;
+  height: 10rem;
   width: 90%;
   margin-top: 0.5rem;
   border: 2px solid black;
@@ -264,7 +264,7 @@ nav {
   font-weight: 600;
   margin-top: 0.5rem;
   background-color: rgba(254, 226, 222, 0.7);
-  height: 2rem;
+  height: 3rem;
 }
 
 
@@ -303,6 +303,7 @@ nav {
 .species-card-back ul > li {
   font-size: 0.8em;
   font-weight: bold;
+  padding: 0.4em;
 }
 
 .species-btn {
