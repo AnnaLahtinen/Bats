@@ -124,14 +124,15 @@ nav {
   left: 0;
   z-index: 3;
   background: var(--blur);
-  backdrop-filter: blur(0.5rem);
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
   display: none;
 }
 
 .link {
   text-decoration: none;
   width: 100vw;
-  color: var(--secondary-color);
+  color: var(--text-color);
   font-size: 0.8rem;
   font-weight: 550;
   padding: 0.3rem;
@@ -171,6 +172,7 @@ nav {
   border: 1px solid var(--text-color);
   background: var(--blur);
   backdrop-filter: blur(0.2rem);
+  -webkit-backdrop-filter: blur(0.2rem);
   text-align: center;
   display: flex;
   flex-direction: column;
