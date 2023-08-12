@@ -3,7 +3,7 @@
 :root {
   --primary-color: #ef2d58;
   --secondary-color: #171a21;
-  --background-color: #fee2de;
+  --background-color: rgb(254, 226, 222);
   --text-color: #fffbff;
   --blur: linear-gradient(
     to right,
@@ -215,7 +215,6 @@ nav {
 .species-main {
   height: auto;
   width: 100vw;
-  border: 2px solid red;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   justify-items: center;
@@ -225,7 +224,7 @@ nav {
 }
 
 .species-card {
-  height: 20rem;
+  height: 15rem;
   width: 60%;
   border: 1px solid #ffcbcb;
   display: flex;
@@ -234,6 +233,7 @@ nav {
   align-items: center;
   background-color: transparent;
   margin-top: 0.4rem;
+  font-family: 'Roboto', sans-serif;
   perspective: 1000px
 }
 
@@ -248,14 +248,23 @@ nav {
 
 .species-card-front {
   background-color: var(--background-color);
+  background-color: rgba(254, 226, 222, 0.4);
   color: var(--secondary-color);
   font-size: 0.8rem;
 }
 
 .species-card-front img {
-  height: 10rem;
+  height: 11rem;
   width: 90%;
   margin-top: 0.5rem;
+  border: 2px solid black;
+}
+
+.species-card-front h2{
+  font-weight: 600;
+  margin-top: 0.5rem;
+  background-color: rgba(254, 226, 222, 0.7);
+  height: 2rem;
 }
 
 
@@ -276,4 +285,41 @@ nav {
   color: var(--secondary-color);
   transform: rotateY(180deg);
   text-align: center;
+  overflow: auto;
+}
+
+.species-card-back ul {
+  font-size: 1rem;
+  padding: 0.3rem;
+}
+
+.species-card-back ul > h3 {
+  font-weight: 600;
+  font-size: 1em;
+  padding: 0.3em;
+  text-decoration: none;
+}
+
+.species-card-back ul > li {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.species-btn {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  padding: 4px 7px;
+  border-radius: 0.3rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.4s;
+  margin: 0.4rem;
+  font-family: 'Tektur', cursive;
+}
+
+.species-btn:hover {
+  background-color: #c996a7;
+  font-family: 'Tektur', cursive;
+  border: 1px solid black;
 }
