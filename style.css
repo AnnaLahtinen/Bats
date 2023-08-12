@@ -271,6 +271,7 @@ nav {
 
 .species-card:hover .species-card-inner {
   transform: rotateY(180deg);
+  box-shadow: -2px 2px 5px var(--secondary-color);
 }
 
 .species-card-front, .species-card-back {
@@ -337,4 +338,16 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.fun-facts-box {
+  height: 20rem;
+  width: 80%;
+  position: relative;
+  overflow: auto;
+  background: rgba(255,255,255,0.1);
+  -webkit-backdrop-filter: blur(1rem);
+  backdrop-filter: blur(1rem); 
+  font-size: 1rem;
+  box-shadow: 2px 2px 5px var(--secondary-color);
 }
