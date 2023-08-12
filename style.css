@@ -220,13 +220,12 @@ nav {
   grid-template-columns: repeat(1, 1fr);
   justify-items: center;
   gap: 1rem;
-  margin: 1rem;
   background-image: url("images/about-bg-1.jpg");
   background-size: cover;
 }
 
 .species-card {
-  height: 15rem;
+  height: 20rem;
   width: 60%;
   border: 1px solid #ffcbcb;
   display: flex;
@@ -276,4 +275,5 @@ nav {
   background-color: var(--background-color);
   color: var(--secondary-color);
   transform: rotateY(180deg);
+  text-align: center;
 }
