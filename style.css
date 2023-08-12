@@ -106,7 +106,6 @@ nav {
   left: 100%;
   height: 3rem;
   width: 3rem;
-  
   cursor: pointer;
   filter: drop-shadow(1px 1px 2px var(--primary-color));
   -webkit-filter: drop-shadow(1px 1px 2px var(--primary-color));
@@ -325,4 +324,17 @@ nav {
   background-color: #c996a7;
   font-family: 'Tektur', cursive;
   border: 1px solid black;
+}
+
+/* fun-facts.html style starts here  */
+
+.fun-facts-main {
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  background-image: url("images/funfact-bg2.avif");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
