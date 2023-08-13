@@ -366,3 +366,7 @@ nav {
   font-weight: bold;
   border: 1px solid #fafffa;
 }
+
+.fun-facts-box ul > li:hover{
+  background-color: rgba(20,0,0,0.3);
+}
