@@ -330,7 +330,7 @@ nav {
 /* fun-facts.html style starts here  */
 
 .fun-facts-main {
-  height: calc(100vh - 4rem);
+  height: calc(100vh - 8rem);
   width: 100vw;
   background-image: url("images/funfact-bg2.avif");
   background-position: center;
