@@ -341,7 +341,7 @@ nav {
 }
 
 .fun-facts-box {
-  height: 20rem;
+  height: 80%;
   width: 80%;
   overflow: auto;
   background: rgba(255,255,255,0.1);
