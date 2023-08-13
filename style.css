@@ -327,6 +327,19 @@ nav {
   border: 1px solid black;
 }
 
+/* Species responsive */
+@media (min-width:600px) {
+  .species-main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width:1000px) {
+  .species-main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 /* fun-facts.html style starts here  */
 
 .fun-facts-main {
