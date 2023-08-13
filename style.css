@@ -63,6 +63,20 @@ main {
   content: "Welcome ";
 }
 
+.main-intro {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  width: 90%;
+  text-align: center;
+  margin: 2rem 0;
+  background-color: rgba(255,255,255, 0.1);
+  box-shadow: 3px 3px 3px var(--secondary-color);
+  backdrop-filter: blur(2rem);
+  -webkit-backdrop-filter: blur(2rem);
+  font-family: 'Roboto', sans-serif;
+  display: none;
+}
+
 .explore-btn button {
   padding: 0.4rem 1rem;
   font-size: 0.8rem;
@@ -421,9 +435,54 @@ footer {
   }
 }
 
-/* About & species responsive */
+/* Landing page responsive */
 
-@media (min-height:100px) and (min-width:800px) {
+@media (min-height:700px) {
+  .main {
+    justify-content: space-between;
+  }
+  .main-bat-img {
+    height: 15rem;
+    width: 15rem;
+  }
+  #welcome {
+    font-size: 2rem;
+  }
+  .main-intro {
+    display: block;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  .explore-btn button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+}
+
+@media (min-height:1000px) and (min-width:800px) {
+  /* Landing page responsive */
+  .main {
+    justify-content: space-between;
+  }
+  .main-bat-img {
+    height: 15rem;
+    width: 15rem;
+  }
+  #welcome {
+    font-size: 3rem;
+  }
+  .main-intro {
+    display: block;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+  .explore-btn button {
+    padding: 2rem 4rem;
+    font-size: 2rem;
+  }
+
+  /* About & species responsive */
+  
   .species-main{
     height: calc(100vh - 8rem);
   }
